@@ -1,0 +1,31 @@
+{
+  "name": "neowithnic_api",
+  "version": "1.0.0",
+  "description": "NeoWithNic GRANDstack Tutorial API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon --exec babel-node src/index.js"
+  },
+  "author": "Nicole Trapp",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.9.3",
+    "dotenv": "^8.1.0",
+    "graphql-tag": "^2.10.1",
+    "neo4j-driver": "^1.7.6",
+    "neo4j-graphql-js": "^2.7.2",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "nodemon": "^1.19.2"
+  }
+}
