@@ -1,6 +1,7 @@
-type User {
+type Photo {
   id: ID!
-  name: String
+  file: String!
+  alt: String!
+  location: Location!
+  size: String!
 }
-
-
