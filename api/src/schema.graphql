@@ -2,6 +2,6 @@ type Photo {
   id: ID!
   file: String!
   alt: String!
-  location: Location!
+  location: String!
   size: String!
 }
