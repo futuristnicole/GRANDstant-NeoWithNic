@@ -1,7 +1,19 @@
-type Photo {
+type Person {
   id: ID!
-  file: String!
-  alt: String!
-  location: String!
-  size: String!
+  name: String!
+  description: String
+  roll: [Roll] @relation(name: "PLAYING", direction: "OUT")
+}
+
+type Roll {
+  id: ID!
+  type: RollType!
+  name: String!
+  person: [Person] @relation(name: "PLAYING", direction: "IN")
+}
+
+enum RollType {
+  STAR
+  SUPPORT
+  EXTRA
 }
