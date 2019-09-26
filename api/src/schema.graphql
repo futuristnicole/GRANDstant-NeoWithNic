@@ -1,6 +1,39 @@
-type User {
+type Person {
   id: ID!
-  name: String
+  name: String!
+  description: String
+  roll: [Roll] @relation(name: "PLAYING", direction: "OUT")
+  photo: [Photo] @relation(name: "IN_PHOTO", direction: "OUT")
 }
 
+type Roll {
+  id: ID!
+  type: RollType!
+  name: String!
+  person: [Person] @relation(name: "PLAYING", direction: "IN")
+}
 
+enum RollType {
+  STAR
+  SUPPORT
+  EXTRA
+}
+
+type Photo {
+  id: ID!
+  file: String!
+  alt: String!
+  location: Location!
+  size: String!
+  person: [Person] @relation(name: "IN_PHOTO", direction: "IN")
+  order: Float
+    @cypher(
+      statement: "MATCH (this) RETURN round(rand()*1000)"
+    )
+}
+
+enum Location {
+  LOCATION1
+  LOCATION2
+  LOCATION3
+}
