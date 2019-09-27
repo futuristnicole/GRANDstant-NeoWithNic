@@ -3,6 +3,8 @@ import "./App.css";
 import People from "./components/People/People";
 import Gallery from "./components/Gallery/AllPictures";
 import AddPhoto from './components/PhotoForm/PhotoForm';
+import AddPerson from './components/PersonForm/PersonForm';
+import AddRoll from './components/PersonForm/RollForm';
 
 class App extends Component {
   render() {
@@ -11,6 +13,12 @@ class App extends Component {
         <h1>NeoWithNic GRANDstack Starter</h1>
         <h2>People Component </h2> 
         <People /><hr></hr> <br></br> <br></br>
+        <h2>Add a Person Component </h2> 
+        <AddPerson /><hr></hr> <br></br> <br></br>
+        <h2>Add a Roll Component </h2> 
+        <AddRoll /><hr></hr> <br></br> <br></br>
+        <h2>Add Person to Roll Component </h2> 
+        <p>Coming Soon</p>
         <h2>Gallery Component</h2> 
         <Gallery /> <hr></hr> <br></br> <br></br>
         <h2>Add a Photo Component</h2> 
