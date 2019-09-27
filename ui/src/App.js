@@ -8,8 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>NeoWithNic GRANDstack Starter</h1>
-        {/* <People /> */}
-        <Gallery />
+        <h2>People Component </h2> 
+        <People />
+        {/* <h2>Gallery Component</h2> */}
+        {/* <Gallery /> */}
       </div>
     );
   }

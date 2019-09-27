@@ -1,0 +1,27 @@
+.section {
+    &-grandstack {
+        // @extend .section;
+        background-color: lighten($color-neo-green,  30%) ;
+        text-align: center;
+        padding-bottom: 4em;  
+    }
+    &-uxhome {
+        // @extend .section;
+        background-color: $color-white ;
+        text-align: center;
+        padding: 4em;  
+    }
+    &-tutorials {
+        // @extend .section;
+        text-align: left;
+        margin: 1rem;
+        padding-left: 1rem;
+    }
+    &-projects {
+        background-color: $color-white ;
+        padding: 2rem;
+        text-align: center;
+        min-height: 82vh;
+
+    }
+}

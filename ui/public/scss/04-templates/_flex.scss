@@ -1,0 +1,23 @@
+// .flex {
+//     &__container {
+//         display: flex;
+//         margin: auto;
+//         }
+//         &-center {
+//             @extend .flex__container;
+//             flex-direction: column;
+//             justify-content: space-around;
+//             align-items: center;
+//             @include respond(break-m) {
+//                 flex-direction: row;
+//                 justify-content: center;
+
+//             }
+//         }
+    
+//     &__box {
+//         flex: 1;
+//         text-align: center;
+//         // background-color: red;
+//     }
+// }

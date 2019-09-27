@@ -1,0 +1,39 @@
+.img-contain {
+    background-size: cover;
+    &__homehero {
+        @extend .img-contain;
+        max-width: 50%;
+        max-height: 10rem;
+    }
+    &__Text {
+        // pictute with in text
+        @extend .img-contain;
+        max-width: 90%; 
+    }
+    &__Project {
+        @extend .img-contain;
+        width: 90%;
+        height: 200px;
+    }
+    &__Tutorial {
+        @extend .img-contain;
+        max-width: 90%;
+        max-height: 30vh;
+        min-height: 10rem;
+    }
+    &__Person {
+        @extend .img-contain;
+        width: 60%;
+        margin: 0 auto;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        height: 300px;
+    }
+}
+.color-box {
+    border-radius: 3px;
+    padding: 1em;
+    font-size: 120%;
+    margin: 0.5em;
+    text-align: center; }

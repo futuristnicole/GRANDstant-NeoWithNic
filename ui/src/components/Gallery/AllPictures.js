@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
 import GalleryPhoto from './Gallery_Photo';
-import Photos from '../../../queries/Photos';
+import Photos from '../../queries/Gallery/allPhotos';
 
 class AllPictures extends Component {
     renderAllPictures() {
@@ -15,6 +15,7 @@ class AllPictures extends Component {
                         alt={photo.alt} 
                         location={photo.location} 
                         size={photo.size} 
+                        order
                     />
                 </div>
             )

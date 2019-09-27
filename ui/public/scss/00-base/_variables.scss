@@ -1,0 +1,22 @@
+//Glodal Variables
+
+//Colors
+$color-neo-blue: #008cc1;
+$color-neo-green: #65b144;
+$color-white: #fff;
+$color-black: #222;
+$shadow:              .05em .05em .08em $color-black, .08em .08em .1em $color-neo-blue;
+$gradient: linear-gradient(to bottom, rgba($color-neo-blue, .8), rgba($color-neo-green, .8));
+$border: 3px solid $color-neo-green;
+
+//fonts
+$font-family-main:      'Gloria+Hallelujah', cursive;;
+$font-family-logo:      'Merienda', cursive;
+$font-size-base:        10px;
+
+//breakpoints
+$break-xs: 400px; //23em;  //400px
+$break-s:  600px; //37.5em;  //600px
+$break-m:  900px;  //56.25em;  //900px
+$break-l:  1100px; // 75em;   //1200px
+// $break-xl:  112.5em;  //1800px
