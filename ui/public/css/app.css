@@ -125,14 +125,6 @@ ol {
   color: #fff;
   font-size: 1.5em; }
 
-.text-box, .text-box-center {
-  position: absolute; }
-  .text-box-center {
-    top: 50%;
-    right: 50%;
-    text-align: center;
-    transform: translate(50%, -50%); }
-
 .img-contain, .img-contain__homehero, .img-contain__Text, .img-contain__Project, .img-contain__Tutorial, .img-contain__Person {
   background-size: cover; }
   .img-contain__homehero {
@@ -161,30 +153,6 @@ ol {
   font-size: 120%;
   margin: 0.5em;
   text-align: center; }
-
-.logo {
-  margin-left: 3rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.logotext, .logotext-neo, .logotext-nic {
-  font-size: 3rem;
-  font-weight: bold;
-  padding-bottom: 0; }
-  .logotext-neo {
-    color: #65b144; }
-  .logotext-nic {
-    color: #008cc1; }
-
-.legal {
-  font-size: 1.2em;
-  text-align: center;
-  padding: 1.5em;
-  color: #fff;
-  background-color: #222;
-  border-top: 3px solid #65b144; }
 
 .gallery {
   display: grid;
@@ -243,160 +211,6 @@ ol {
     height: 100%;
     object-fit: cover;
     display: block; }
-
-.topbar {
-  height: 6rem;
-  background-color: #222;
-  border-bottom: 3px solid #65b144;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
-  @media (min-width: 900px) {
-    .topbar {
-      height: 7rem;
-      align-items: center; } }
-
-.nav, .nav-side, .nav-top, .nav-top_modal {
-  font-size: 1.4em;
-  list-style: none; }
-  .nav-side {
-    margin-top: .5em; }
-  .nav-top, .nav-top_modal {
-    align-self: stretch;
-    flex-direction: column;
-    align-items: baseline;
-    background-color: #222;
-    display: none; }
-    .nav-top_modal {
-      display: flex; }
-    @media (min-width: 900px) {
-      .nav-top, .nav-top_modal {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-self: center;
-        margin-top: 0;
-        background-color: transparent; } }
-
-.nav-item {
-  padding-bottom: 0; }
-
-.nav-link {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  padding: 1.5rem 3rem; }
-
-.nav-link:hover {
-  color: #008cc1; }
-
-.active-navlink {
-  color: #008cc1; }
-
-.hambuger, .hambuger_side {
-  height: 6rem;
-  width: 6rem;
-  background-image: url(../../img/icon/MenuTop.jpg);
-  background-position: center;
-  background-size: cover;
-  margin-right: 2rem; }
-  @media (min-width: 900px) {
-    .hambuger, .hambuger_side {
-      display: none;
-      margin-right: 0; } }
-  .hambuger_side {
-    margin-right: 0; }
-    @media (min-width: 900px) {
-      .hambuger_side {
-        display: flex; } }
-
-.hambuger__h1 {
-  padding-bottom: 0; }
-
-.hero-home, .hero-home__about, .hero-home__koko {
-  height: 80vh;
-  min-height: 30rem;
-  background-color: #fff; }
-
-.heroText-home {
-  color: #222; }
-.heroText-main, .heroText-main-home, .heroText-main-section {
-  display: block;
-  text-align: center; }
-  .heroText-main-home {
-    font-size: 1.5em;
-    font-weight: 700; }
-  .heroText-main-section {
-    font-size: 1em;
-    font-weight: 700; }
-.heroText-sub, .heroText-sub-home, .heroText-sub-section {
-  display: block;
-  text-align: center; }
-  .heroText-sub-home {
-    font-size: .8em;
-    font-weight: 400; }
-  .heroText-sub-section {
-    font-size: .55em;
-    font-weight: 400;
-    padding-bottom: 1em; }
-
-.section-grandstack {
-  background-color: #bde0ae;
-  text-align: center;
-  padding-bottom: 4em; }
-.section-uxhome {
-  background-color: #fff;
-  text-align: center;
-  padding: 4em; }
-.section-tutorials {
-  text-align: left;
-  margin: 1rem;
-  padding-left: 1rem; }
-.section-projects {
-  background-color: #fff;
-  padding: 2rem;
-  text-align: center;
-  min-height: 82vh; }
-
-.modalTopNav {
-  background-color: #222;
-  position: absolute;
-  top: 6rem;
-  right: 0; }
-  @media (min-width: 900px) {
-    .modalTopNav {
-      display: none; } }
-
-.modalSideNav {
-  background-color: red;
-  position: absolute;
-  top: 6rem;
-  right: 1; }
-  @media (min-width: 900px) {
-    .modalSideNav {
-      top: 7rem; } }
-
-.box {
-  height: 200px;
-  width: 200px;
-  background-color: red; }
-
-.sidebar-container {
-  display: flex; }
-
-.sidebar-side {
-  background-color: #222;
-  flex: 0 0 18%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%; }
-
-.sidebar-main {
-  background-color: #fff;
-  flex: 1;
-  min-height: 82vh; }
 
 .grid-4 {
   display: grid;

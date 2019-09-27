@@ -10,8 +10,8 @@ class App extends Component {
         <h1>NeoWithNic GRANDstack Starter</h1>
         <h2>People Component </h2> 
         <People />
-        {/* <h2>Gallery Component</h2> */}
-        {/* <Gallery /> */}
+        <h2>Gallery Component</h2> */}
+        <Gallery />
       </div>
     );
   }
