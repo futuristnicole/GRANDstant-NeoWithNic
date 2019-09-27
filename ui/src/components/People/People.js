@@ -1,20 +1,3 @@
-// import React, { Component } from 'react';
-// // import { Link } from 'react-router-dom';
-// import PersonBox from './PersonBox';
-
-// class KokoGallery extends Component {
-//     render() {
-//         return (
-//             <div className="section-projects">
-                
-//                 {/* <h2 className="section-headers">Starring</h2> <br /> <br /> */}
-//                     <div className="grid-3 wrap" >
-//             </div>
-//         );
-//     }
-// };
-
-// export default KokoGallery;
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
 

@@ -17,9 +17,3 @@ class Gallery_Photo extends Component {
 };
 
 export default Gallery_Photo;
-
-// id={photo.id}
-//                         file={photo.file}
-//                         alt={photo.alt} 
-//                         location={photo.location} 
-//                         size={photo.size} 
