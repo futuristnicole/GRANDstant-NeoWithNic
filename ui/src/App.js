@@ -11,19 +11,24 @@ class App extends Component {
     return (
       <div className="App">
         <h1>NeoWithNic GRANDstack Starter</h1>
-        <h2>People Component </h2> 
-        <People /><hr></hr> <br></br> <br></br>
-        <h2>Add a Person Component </h2> 
-        <AddPerson /><hr></hr> <br></br> <br></br>
-        <h2>Add a Roll Component </h2> 
-        <AddRoll /><hr></hr> <br></br> <br></br>
-        <h2>Add Person to Roll Component </h2> 
-        <p>Coming Soon</p><hr></hr> <br></br> <br></br>
         <h2>Gallery Component</h2> 
         <Gallery /> <hr></hr> <br></br> <br></br>
-        <h2>Add a Photo Component</h2> 
-        <AddPhoto />
-        <br></br> <br></br>
+
+        <h2>Add a Photo Component </h2> <br></br>
+        <AddPhoto /><hr /><br></br> <br></br>
+        
+        <h2>People Component </h2> 
+        <People /><hr></hr> <br></br> <br></br>
+
+        <h2>Add a Person Component </h2> 
+        <AddPerson /><hr></hr> <br></br> <br></br>
+
+        <h2>Add a Roll Component </h2> 
+        <AddRoll /><hr></hr> <br></br> <br></br>
+        
+        <h2>Add Person to Roll Component </h2> 
+        <p>Coming Soon</p><hr></hr> <br></br>
+        
       </div>
     );
   }
