@@ -101,7 +101,8 @@ ol {
     }
 }
 
-a {
+a,
+Link {
     font-size: inherit;
     color: darken($color-neo-blue, 9);
     text-decoration: none;

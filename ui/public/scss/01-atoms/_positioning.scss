@@ -1,0 +1,12 @@
+.text-box {
+    // change to use grid
+    position: absolute;
+    // background-color: aqua;
+    &-center {
+        @extend.text-box;
+        top: 50%;
+        right: 50%;
+        text-align: center;
+        transform: translate(50%, -50%);
+    }
+}

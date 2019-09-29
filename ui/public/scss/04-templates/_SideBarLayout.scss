@@ -1,0 +1,18 @@
+.sidebar-container {
+    display: flex;
+}
+.sidebar-side {
+    background-color: $color-black;
+    flex: 0 0 18%;
+    // color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sidebar-main {
+    background-color: $color-white;
+    flex: 1;
+    min-height: 82vh;
+}
