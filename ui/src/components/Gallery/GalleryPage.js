@@ -11,7 +11,9 @@ class KokoGallery extends Component {
                 <p>To see how to build each part see.</p>
                 <p>See how to get the look with <Link to="/tutorials/scss/gallery" className="">SCSS</Link></p>
                 <p>See how to build the <Link to="/tutorials/scss/gallery" className="">react Component</Link></p>
-                <GalleryPhoto />
+                <section className="gallery center">
+                    <GalleryPhoto />
+                </section>
             </div>
         );
     }

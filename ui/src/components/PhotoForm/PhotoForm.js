@@ -46,8 +46,8 @@ class PhotoCreate extends Component {
                         onChange={event => this.setState({ location: event.target.value })}
                         value={this.state.location}
                     />
-                    <p> LOCATION1  LOCATION2  LOCATION3</p>
                         <br></br>
+                       <p>LOCATION1  LOCATION2  LOCATION3</p> 
                         <br></br>
                     <label>Photo size</label>
                     <input 
@@ -55,9 +55,13 @@ class PhotoCreate extends Component {
                         value={this.state.size}
                     />
                         <br></br>
+                        <p> 1-1  1-2  1-3</p>
+                        <p> 2-1  2-2  2-3</p>
+                        <p> 3-1  3-2  3-3</p>
                         <br></br>
                     <br></br>
                     <button>Submit</button>
+                    <br></br>
                 </form>
             </div>
         )
