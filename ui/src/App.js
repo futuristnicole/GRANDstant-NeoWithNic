@@ -18,7 +18,7 @@ class App extends Component {
         <h2>Add a Roll Component </h2> 
         <AddRoll /><hr></hr> <br></br> <br></br>
         <h2>Add Person to Roll Component </h2> 
-        <p>Coming Soon</p>
+        <p>Coming Soon</p><hr></hr> <br></br> <br></br>
         <h2>Gallery Component</h2> 
         <Gallery /> <hr></hr> <br></br> <br></br>
         <h2>Add a Photo Component</h2> 

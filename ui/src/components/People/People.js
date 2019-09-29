@@ -27,7 +27,8 @@ class Person extends Component {
             
             <div>
                 <article className="section__koko center-text">
-                <h2 className="section-headers">Starring</h2> <br /> <br />
+                {/* <h2 className="section-headers">Starring</h2>  */}
+                <br /> <br />
                     <div className="grid-3 wrap" >
                         {this.renderPeson()}
                     </div>
